@@ -10,6 +10,9 @@
     "sourceMap": true,
     "outDir": "./dist",
     "baseUrl": "./",
-    "incremental": true
+    "incremental": true,
+    "paths": {
+      "@core-api-module/*": ["node_modules/test-core-api/dist/*"]
+    }
   }
 }
